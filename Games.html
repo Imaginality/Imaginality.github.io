@@ -103,10 +103,37 @@
                 top: 5px;
                 left: 1315px;
             }
-            div.RefHov{
+            a.Refresh{
+                color: #FFB2E1;
             }
-            div.RefHov:hover {
-                color: #FF99D7;
+            a.Refresh:hover {
+                color: #FF6BC6;
+            }
+            p.RefDesc{
+                position: fixed;
+                color: #FFB2E1;
+                font-size: 20px;
+                top: -10px;
+                left: 1230px;
+            }
+            div.COLORSCHEME{
+                position: fixed;
+                color: #FFB2E1;
+                top: 50px;
+                left: 1325px;
+            }
+            a.ColorScheme {
+                color: #FFB2E1;
+            }
+            a.ColorScheme:hover{
+                color: #FF6BC6;
+            }
+            p.ColorDesc{
+                position: fixed;
+                color: #FFB2E1;
+                font-size: 20px;
+                top: 25px;
+                left: 1180px;
             }
 			body{
 				background-color: #ffb3bf;
@@ -151,10 +178,11 @@
 		<div class=KinetXPic>
 			<a href="http://www.kinet-x.org/"><img width=30px src="Pictures/Kinet-X.png"></a>
 		</div>
-        <div class=RefHov>
-            <div class=REFRESH>
-                <a href="index.html"><i class="fa fa-refresh fa-spin fa-2x" style="color:#FFB2E1"></i></a>
-            </div>
+        <div class=REFRESH>
+            <a class=Refresh href="index.html"><i class="fa fa-refresh fa-spin fa-2x"></i></a>
+        </div>
+        <div class=COLORSCHEME>
+            <a class=ColorScheme href="ColorScheme.html"><i class="fa fa-paint-brush fa-1x"></i></a>
         </div>
 		<div class=FontAll>
 			<p class=NAME><b>Matthew Chan</b></p>
@@ -164,6 +192,8 @@
 			<a href="http://www.kinet-x.org/"><p class=KinetX>Kinet-X</p></a>
             <a href="Q&A.html"><p class=QA>Q and A</p></a>
             <a href="Games.html"><p class=GAMES>Games</p></a>
+            <a class=Refresh><p class=RefDesc>Refresh</p></a>
+            <a class=ColorScheme><p class=ColorDesc>ColorScheme</p></a>
             <span><br>
                 <p class=Game><b>Games</b></p><br><br><br>
                 <p class=GameDesc>These are some games that I currently play:</p>
